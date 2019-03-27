@@ -1,4 +1,4 @@
-require "rack/commonlogger"
+require "rack/common_logger"
 
 module AsyncRack
   class CommonLogger < AsyncCallback(:CommonLogger)

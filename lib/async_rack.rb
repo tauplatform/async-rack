@@ -1,4 +1,5 @@
 require "rack"
+require "rack/head"
 require "async_rack/async_callback"
 
 module AsyncRack
